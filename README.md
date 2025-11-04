@@ -1,38 +1,38 @@
-# 🚂 Тестовое задание для QA-инженера (Unit-тестирование)
+# 🚂 Test Task for a QA Engineer (Unit Testing)
 
-### Железная дорога
+### Railway
 
-### 📋 Контекст задачи
-Вы участвуете в тестировании критически важного модуля системы управления железнодорожными перевозками РЖД. Ваша задача — обеспечить надежность расчетов движения поездов и перевозки грузов.
+### 📋 Task Context
+You are involved in testing a critical module of the Russian Railways rail transportation management system. Your task is to ensure the reliability of train movement and freight transportation calculations.
 
-### 🎯 Цель задания
-Написать comprehensive unit-тесты для класса RailwayOperations, покрывающие все возможные сценарии работы.
+### 🎯 Task Objective
+Write comprehensive unit tests for the RailwayOperations class, covering all possible operating scenarios.
 
-### 📝 Задание
-1. Тестируемый класс.
-Протестируйте все методы класса RailwayOperations.
+### 📝 Task
+1. Class under test.
+Test all methods of the RailwayOperations class.
 
-2. Требования к тестам.
-Для каждого метода необходимо реализовать:
+2. Test requirements.
+For each method, you must implement:
 
-✅ Позитивные.	2	Стандартные рабочие сценарии.
-❌ Негативные.	2	Ошибочные входные данные.
-⚠️ Граничные.	1	Пограничные значения.
+✅ Positive. 2 Standard operating scenarios.
+❌ Negative. 2 Erroneous input data.
+⚠️ Boundary. 1 Boundary values.
 
-### 🧪 Критерии оценки
-Полнота покрытия (100% coverage приветствуется)
-Качество тест-кейсов
-Читаемость кода
-Обработка исключений
-Стиль именования тестов
+### 🧪 Evaluation Criteria
+Completeness of Coverage (100% coverage is preferred)
+Test Case Quality
+Code Readability
+Exception Handling
+Test Naming Style
 
-### 💎 Бонусные задания
-Реализовать метод расчета чистого времени пути поезда (полное время в пути - время остановок)
-Написать к данному методу unit-тест
+### 💎 Bonus Tasks
+Implement a method for calculating a train's net travel time (total travel time - stop time)
+Write a unit test for this method
 
-### ⁉️ Подсказки
-Используйте параметризованные тесты для повторяющихся сценариев
-Документируйте предположения в комментариях
-Проверяйте не только результат, но и побочные эффекты
+### ⁉️ Tips
+Use parameterized tests for recurring scenarios
+Document assumptions in comments
+Test not only the result but also side effects
 
-### "Хорошие тесты — как семафоры на железной дороге: предотвращают катастрофы до того, как они произойдут." © Senior QA Engineer
+### "Good tests are like signals on a railroad: they prevent disasters before they happen." © Senior QA Engineer
